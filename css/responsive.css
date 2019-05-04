@@ -1,0 +1,97 @@
+/* Medium Layout 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-text{
+        transform: translate(-50%, 35%); /*-- prev transform: translate(-50%, 125%) --*/
+    }
+/*
+    .banner-text h1{
+        font-size: 38px;
+    }
+    .banner-text h2{
+        font-size: 17px;
+    }
+*/
+    .navbar-light .navbar-toggler-icon{
+        background-image: none;
+        line-height: 1.5em;
+    }
+    .navbar-light .navbar-toggler{
+        background-color: #2980b9;
+        border-color: #2980b9;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+     .navbar-nav{
+        background: #000;
+        padding-left: 20px;
+    }
+    .navbar-toggler-icon i{
+        color: #fff;
+    }
+    .service-area h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+}
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px){
+    .banner-text{
+        transform: translate(-50%, 75%); /*-- prev transform: translate(-50%, 0%) --*/
+    }
+    .banner-text h1{
+        font-size: 25px;
+    }
+    .banner-text h2{
+        font-size: 19px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-nav{
+        background: #000;
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: none;
+        line-height: 1.5em;
+    }
+    .navbar-light .navbar-toggler{
+        background-color: #2980b9;
+        border-color: #2980b9;
+    }
+    .navbar-toggler-icon i{
+        color: #fff;
+    }
+    .section-padding{
+        padding: 40px 0;
+    }
+    .section-header h2{
+        font-size: 30px;
+    }
+    .item-text h4{
+        margin-top: 24px;
+    }
+    .service-area h3{
+        font-size: 22px;
+    }
+    .single-portfolio{
+        margin-bottom: 15px;
+    }
+    .newsletter-area h4{
+        font-size: 17px;
+    }
+    .newsletter-area input{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .newsletter-area button{
+        width: 100%;
+        margin-top: 15px;
+    }
+}
